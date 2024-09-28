@@ -48,5 +48,5 @@ First, make sure that you have all the required Python libraries. You can instal
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/blood-test-analyzer.git
+git clone https://github.com/shivamkr17/blood-test-analyzer.git
 cd blood-test-analyzer
