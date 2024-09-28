@@ -36,7 +36,7 @@ To run this project, you need to have Python installed, along with the necessary
 
 ### Prerequisites
 
-- Python 3.8 or above
+- Python 3.10 or above
 - Required Python packages:
   - PyPDF2
   - crewai (custom agent system)
@@ -50,3 +50,20 @@ First, make sure that you have all the required Python libraries. You can instal
 ```bash
 git clone https://github.com/shivamkr17/blood-test-analyzer.git
 cd blood-test-analyzer
+
+2. Install Dependencies
+```
+    pip install -r requirements.txt
+
+
+3. Set Up API Keys
+
+Create a .env file in the project root and add your API keys:
+
+    GOOGLE_API_KEY=<your-google-api-key>
+    SERPER_API_KEY=<your-serper-api-key>
+
+
+- Step 4: Run the Script
+
+    python crew.py
